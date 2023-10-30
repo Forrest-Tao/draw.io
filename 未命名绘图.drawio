@@ -1,32 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T07:48:07.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="0Ou5gxrJ7HsXYvl0VwFS" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T08:01:38.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="NcTxv-boUqJLI2yCjTNl" version="22.0.8" type="github">
   <diagram name="第 1 页" id="EKEbSNTzWzbHu82JW9sO">
-    <mxGraphModel dx="2508" dy="847" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2341" dy="880" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RrmuecX0L_cIQYUWVv-B-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-516" y="81" width="101" height="120" as="geometry" />
+          <mxGeometry x="-1154" y="30" width="101" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RrmuecX0L_cIQYUWVv-B-6" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="141" y="208" width="101" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RrmuecX0L_cIQYUWVv-B-7" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-667" y="319" width="101" height="120" as="geometry" />
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-7" value="Student" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1245" y="286" width="101" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RrmuecX0L_cIQYUWVv-B-8" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-394" y="302" width="101" height="120" as="geometry" />
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-8" value="Staff" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1048" y="286" width="101" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RrmuecX0L_cIQYUWVv-B-9" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="489" y="449" width="101" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RrmuecX0L_cIQYUWVv-B-10" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-157" y="237" width="140" height="70" as="geometry" />
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-10" value="Authorization" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-804" y="29" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RrmuecX0L_cIQYUWVv-B-11" value="Use Case" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-919" y="649" width="140" height="70" as="geometry" />
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-11" value="invalid pwd or username" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="72" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RrmuecX0L_cIQYUWVv-B-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
-          <mxGeometry x="-910" y="488" width="40" height="8" as="geometry" />
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="RrmuecX0L_cIQYUWVv-B-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1189.0047034422773" y="256" as="sourcePoint" />
+            <mxPoint x="-1130.3073652694611" y="137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-25" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="RrmuecX0L_cIQYUWVv-B-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-995" y="249" as="sourcePoint" />
+            <mxPoint x="-1064.9973652694612" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-26" value="Request new book" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-807" y="142" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-27" value="reserve a book" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-811" y="257" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-28" value="invalid renewal" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-576" y="320" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-29" value="feedback" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-807" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-30" value="fill up feedback form" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-576" y="447" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-31" value="pay fine" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-815" y="523" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-32" value="register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-807" y="-100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-33" value="fill up registration form" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-618" y="-176" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-34" value="get liabrary cardID" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-572" y="-67" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-35" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RrmuecX0L_cIQYUWVv-B-32" target="RrmuecX0L_cIQYUWVv-B-34">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-840" y="55" as="sourcePoint" />
+            <mxPoint x="-680" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RrmuecX0L_cIQYUWVv-B-37" value="《excludes》" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=20;" vertex="1" parent="1">
+          <mxGeometry x="-678.43" y="-79.85" width="124" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
