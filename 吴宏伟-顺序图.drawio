@@ -1,23 +1,161 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T10:16:40.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="0T2I6iBdLlSIQ9K3ObUk" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T13:16:30.963Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="GVH3aQPa093utJF5SpYZ" version="22.1.5" type="github">
   <diagram name="第 1 页" id="LZNf1vj8lLsKFW6-IqA4">
-    <mxGraphModel dx="2114" dy="1163" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1019" dy="400" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pcqMnsxokqQkOuhEjKeq-1" value="&amp;lt;&amp;lt;external user&amp;gt;&amp;gt;:ATM Customer Keypad Display" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="93" y="103" width="143" height="872" as="geometry" />
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-1" value="&amp;lt;&amp;lt;external user&amp;gt;&amp;gt;:ATM Customer Keypad Display" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" parent="1" vertex="1">
+          <mxGeometry x="58" y="104" width="143" height="872" as="geometry" />
         </mxCell>
-        <mxCell id="pcqMnsxokqQkOuhEjKeq-3" value="&amp;lt;&amp;lt;external I/O device&amp;gt;&amp;gt;:Card Reader&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-3" value="&amp;lt;&amp;lt;external I/O device&amp;gt;&amp;gt;:Card Reader&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" parent="1" vertex="1">
           <mxGeometry x="-126" y="105" width="100" height="873" as="geometry" />
         </mxCell>
-        <mxCell id="pcqMnsxokqQkOuhEjKeq-4" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="706" y="95" width="100" height="873" as="geometry" />
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-4" value="《state dependentcontrol》:ATMControl" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" parent="1" vertex="1">
+          <mxGeometry x="653" y="100" width="197" height="868" as="geometry" />
         </mxCell>
-        <mxCell id="pcqMnsxokqQkOuhEjKeq-5" value="&amp;lt;&amp;lt;I/O&amp;gt;&amp;gt;:Card Reader Interface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="321" y="100" width="100" height="873" as="geometry" />
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-5" value="&amp;lt;&amp;lt;I/O&amp;gt;&amp;gt;:Card Reader Interface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" parent="1" vertex="1">
+          <mxGeometry x="285" y="101" width="100" height="873" as="geometry" />
         </mxCell>
-        <mxCell id="pcqMnsxokqQkOuhEjKeq-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
-          <mxGeometry x="522" y="98" width="100" height="873" as="geometry" />
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-6" value="《entity》: ATMCard" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" parent="1" vertex="1">
+          <mxGeometry x="469" y="100" width="100" height="873" as="geometry" />
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-1" value="《user interactionx: CustomerInteraction" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="934" y="98" width="145" height="870" as="geometry" />
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-2" value="《subsystem》:BankingService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="1402" y="93" width="178" height="872" as="geometry" />
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-3" value="《entity》:ATMTransaction" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=1;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="1163" y="92" width="155" height="877" as="geometry" />
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-5" value="Card Reader Input" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="pcqMnsxokqQkOuhEjKeq-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-73" y="216" as="sourcePoint" />
+            <mxPoint x="7" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-6" value="Card ID,Start Date,Exp Date" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="339" y="278.9999999999998" as="sourcePoint" />
+            <mxPoint x="523.1764705882356" y="278.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-7" value="Card Inserted" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pcqMnsxokqQkOuhEjKeq-5" target="pcqMnsxokqQkOuhEjKeq-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="378" y="354" as="sourcePoint" />
+            <mxPoint x="458" y="354" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="535" y="324" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-8" value="Get PIN" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pcqMnsxokqQkOuhEjKeq-4" target="sMYTjVDEjfUBQ8W1acog-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="826" y="370" as="sourcePoint" />
+            <mxPoint x="906" y="370" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="885" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-9" value="PIN Prompt" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="sMYTjVDEjfUBQ8W1acog-1" target="pcqMnsxokqQkOuhEjKeq-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="704" y="408" as="sourcePoint" />
+            <mxPoint x="784" y="408" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="567" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-11" value="PIN Input" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pcqMnsxokqQkOuhEjKeq-1" target="sMYTjVDEjfUBQ8W1acog-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="325" y="320" as="sourcePoint" />
+            <mxPoint x="405" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-12" value="&amp;nbsp;Card Request" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="sMYTjVDEjfUBQ8W1acog-1" target="pcqMnsxokqQkOuhEjKeq-6">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="596" y="415" as="sourcePoint" />
+            <mxPoint x="676" y="415" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="775" y="492" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-14" value="Card ld, Start Date, Expiration Date" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pcqMnsxokqQkOuhEjKeq-6">
+          <mxGeometry x="-0.0281" y="2" width="80" relative="1" as="geometry">
+            <mxPoint x="920" y="545" as="sourcePoint" />
+            <mxPoint x="1000" y="545" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-15" value="Card ld, Start Date, Expiration Date" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="sMYTjVDEjfUBQ8W1acog-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1010" y="614" as="sourcePoint" />
+            <mxPoint x="1090" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-16" value="PIN Validation Transaction" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="sMYTjVDEjfUBQ8W1acog-3" target="sMYTjVDEjfUBQ8W1acog-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1117" y="653" as="sourcePoint" />
+            <mxPoint x="1197" y="653" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1103" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-17" value="&amp;nbsp;PIN Entered&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="sMYTjVDEjfUBQ8W1acog-1" target="pcqMnsxokqQkOuhEjKeq-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="892" y="714" as="sourcePoint" />
+            <mxPoint x="972" y="714" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="874" y="701" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-19" value="Validate PIN&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pcqMnsxokqQkOuhEjKeq-4" target="sMYTjVDEjfUBQ8W1acog-2">
+          <mxGeometry x="0.0302" y="5" width="80" relative="1" as="geometry">
+            <mxPoint x="842" y="787" as="sourcePoint" />
+            <mxPoint x="922" y="787" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1137" y="753" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-20" value="Valid PIN&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="sMYTjVDEjfUBQ8W1acog-2" target="pcqMnsxokqQkOuhEjKeq-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1295" y="814" as="sourcePoint" />
+            <mxPoint x="1375" y="814" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1129" y="798" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-21" value="Display Menu" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" source="pcqMnsxokqQkOuhEjKeq-4" target="sMYTjVDEjfUBQ8W1acog-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="774" y="836" as="sourcePoint" />
+            <mxPoint x="854" y="836" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="880" y="839" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-22" value="&amp;nbsp;Update Status" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1" target="sMYTjVDEjfUBQ8W1acog-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="746" y="890" as="sourcePoint" />
+            <mxPoint x="826" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sMYTjVDEjfUBQ8W1acog-23" value="Selection Menu" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.031" y="-9" width="80" relative="1" as="geometry">
+            <mxPoint x="1007.6666666666665" y="964" as="sourcePoint" />
+            <mxPoint x="335.5" y="964" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
