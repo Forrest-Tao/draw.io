@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T06:23:05.904Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.5" etag="k9R9GHd0dxp3kfLsQgAH" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T06:39:32.069Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="gT8gyxuoe7z2JJ_WBO0s" version="22.1.5" type="github">
   <diagram name="第 1 页" id="LZNf1vj8lLsKFW6-IqA4">
-    <mxGraphModel>
+    <mxGraphModel dx="1815" dy="1146" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-1" value="&amp;lt;&amp;lt;external user&amp;gt;&amp;gt;:ATM Customer Keypad Display" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="103" width="143" height="872" as="geometry" />
+        </mxCell>
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-3" value="&amp;lt;&amp;lt;external I/O device&amp;gt;&amp;gt;:Card Reader&amp;nbsp;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="-126" y="105" width="100" height="873" as="geometry" />
+        </mxCell>
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-4" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="706" y="95" width="100" height="873" as="geometry" />
+        </mxCell>
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-5" value="&amp;lt;&amp;lt;I/O&amp;gt;&amp;gt;:Card Reader Interface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="321" y="100" width="100" height="873" as="geometry" />
+        </mxCell>
+        <mxCell id="pcqMnsxokqQkOuhEjKeq-6" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};flipH=0;flipV=0;" vertex="1" parent="1">
+          <mxGeometry x="522" y="98" width="100" height="873" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
