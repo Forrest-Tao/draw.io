@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T06:00:57.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.5" etag="PjtKqbk81T35Ph9W8_yK" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T10:16:25.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="3ErnuqyoivO_Rs5TCnsX" version="22.1.5" type="github">
   <diagram name="第 1 页" id="83zNyP7lRGFBXzLOLDJH">
-    <mxGraphModel>
+    <mxGraphModel dx="1591" dy="1429" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-1" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="382" y="-37" width="180" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="FgRXkzhZWKJh8FhvUSjj-2" target="FgRXkzhZWKJh8FhvUSjj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-2" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="291" y="239" width="376" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-4" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="36" y="457" width="196" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-5" value=":BankingSevice&lt;br&gt;{1 server node}" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="437" y="3" width="72" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-6" value="&amp;lt;&amp;lt;wide area network&amp;gt;&amp;gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="247" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-7" value=":ATMClient&lt;br&gt;{1 node prt ATM}" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="87" y="500" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-9" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="759" y="461" width="196" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-10" value=":ATMClient&lt;br&gt;{1 node prt ATM}" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="808" y="494" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-11" value="" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="359" y="456" width="196" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-12" value=":ATMClient&lt;br&gt;{1 node prt ATM}" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="417" y="494" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=98;exitDy=95;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466.0000000000001" y="62" as="sourcePoint" />
+            <mxPoint x="467" y="243" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=93;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FgRXkzhZWKJh8FhvUSjj-2" target="FgRXkzhZWKJh8FhvUSjj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FgRXkzhZWKJh8FhvUSjj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.024;entryY=0.393;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FgRXkzhZWKJh8FhvUSjj-2" target="FgRXkzhZWKJh8FhvUSjj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
