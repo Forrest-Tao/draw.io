@@ -1,9 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T13:38:51.702Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" version="22.1.5" etag="1hbZKjC4IQ_U_3qNcpOL" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-05T13:45:58.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="XpATPXzRUgBBGnsofm2H" version="22.1.5" type="github">
   <diagram name="第 1 页" id="03SoxkYsdWMkyd-8PY1V">
-    <mxGraphModel>
+    <mxGraphModel dx="1591" dy="1029" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-1" value="Idle" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=0;resizeLast=1;container=0;fontColor=#000000;collapsible=0;rounded=1;arcSize=30;strokeColor=#ff0000;fillColor=#ffffc0;swimlaneFillColor=#ffffc0;dropTarget=0;" vertex="1" parent="1">
+          <mxGeometry x="457" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-2" value="Display welcome" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;fontColor=#000000;" vertex="1" parent="dXc1ijNka1BcWv9EcIjI-1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.442;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="dXc1ijNka1BcWv9EcIjI-1" parent="1" target="dXc1ijNka1BcWv9EcIjI-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="567" y="61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-4" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="104" y="193" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="dXc1ijNka1BcWv9EcIjI-4" parent="1" target="dXc1ijNka1BcWv9EcIjI-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="293" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-6" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="104" y="413" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-7" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="dXc1ijNka1BcWv9EcIjI-6" parent="1" target="dXc1ijNka1BcWv9EcIjI-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-10" value="Card Inseted&lt;br&gt;Get PIN" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="57" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-11" value="PIN entered&lt;br&gt;Validate PIN" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="181" y="289" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-14" value="Activity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="104" y="607" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-15" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="dXc1ijNka1BcWv9EcIjI-14" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="707" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dXc1ijNka1BcWv9EcIjI-16" value="return valid msg&lt;br&gt;Display Menu&lt;br&gt;Update Status" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="163" y="523" width="146" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
