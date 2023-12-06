@@ -1,21 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T01:47:47.989Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Zx6HneC-u8eVGSCw3C6T" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-06T01:51:18.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="6EmJ_lU-2MnWqnEYRnOI" version="22.1.5" type="github">
   <diagram name="第 1 页" id="I-XK11RTatF3O2h4fDNd">
-    <mxGraphModel dx="1991" dy="1029" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1711" dy="847" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#171717;" vertex="1" parent="1">
           <mxGeometry x="21" y="121" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="GNew5yEd5w2ccM4kTpbS-1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" edge="1" source="GNew5yEd5w2ccM4kTpbS-1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="36" y="211" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#171717;" vertex="1" parent="1">
           <mxGeometry x="-277.5" y="644" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-4" value="&amp;nbsp;Input PIN" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-4" value="&amp;nbsp;Input PIN" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="-19" y="211" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-8" target="GNew5yEd5w2ccM4kTpbS-16">
@@ -26,11 +26,8 @@
             <mxPoint x="-122" y="225" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-8" value="Validate PIN" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-8" value="Validate PIN" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="305" y="171" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-11" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px; font-weight: 400; text-align: start;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size); background-color: rgba(255, 228, 181, 0.7);&quot; class=&quot;src grammarSection highlight&quot; data-group=&quot;1-1&quot;&gt;Insert magnetic card&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-66" y="151" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-13" value="Invalid PIN" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="143" y="162" width="80" height="26" as="geometry" />
@@ -38,13 +35,13 @@
         <mxCell id="GNew5yEd5w2ccM4kTpbS-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-16" target="GNew5yEd5w2ccM4kTpbS-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-16" value="Chose Transaction Service" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-16" value="Chose Transaction Service" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="505" y="171" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-18" target="GNew5yEd5w2ccM4kTpbS-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-18" value="Withdraw&lt;br&gt;Transaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-18" value="Withdraw&lt;br&gt;Transaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="705" y="171" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-20" value="Withdraw&lt;br&gt;Transcation" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
@@ -53,22 +50,22 @@
         <mxCell id="GNew5yEd5w2ccM4kTpbS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-21" target="GNew5yEd5w2ccM4kTpbS-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-21" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;Input withdrawal amount&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-21" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;Input withdrawal amount&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;align=center;" vertex="1" parent="1">
           <mxGeometry x="705" y="291" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-23" target="GNew5yEd5w2ccM4kTpbS-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-23" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;Verify the validity of the withdrawal&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-23" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;Verify the validity of the withdrawal&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;align=center;" vertex="1" parent="1">
           <mxGeometry x="705" y="529" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-25" target="GNew5yEd5w2ccM4kTpbS-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-25" value="valid" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-25" value="valid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="513" y="529" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-27" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="GNew5yEd5w2ccM4kTpbS-25" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-27" value="yes" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;rounded=0;" edge="1" source="GNew5yEd5w2ccM4kTpbS-25" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="553" y="629" as="targetPoint" />
           </mxGeometry>
@@ -79,7 +76,7 @@
         <mxCell id="GNew5yEd5w2ccM4kTpbS-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-36" target="GNew5yEd5w2ccM4kTpbS-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-36" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;Spit money&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-36" value="&lt;ul style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: 14px; text-align: start;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin: 0px; padding: 0px; list-style: none;&quot;&gt;&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 2px; padding: 0px; line-height: 21px; display: inline; font-size: var(--main-font-size);&quot; class=&quot;src grammarSection&quot; data-group=&quot;1-1&quot;&gt;Spit money&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="496" y="628" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-43" value="exit" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
@@ -104,7 +101,7 @@
             <mxPoint x="-262.5" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-49" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: var(--main-font-size);&quot;&gt;Input invalid PIN More than&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: var(--main-font-size);&quot;&gt;three times&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;align=center;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-49" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;background-color: initial; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: var(--main-font-size);&quot;&gt;Input invalid PIN More than&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; color: rgb(42, 43, 46); font-family: &amp;quot;PingFang SC&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Arial, &amp;quot;Microsoft YaHei&amp;quot;, 微软雅黑, 宋体, &amp;quot;Malgun Gothic&amp;quot;, sans-serif; font-size: var(--main-font-size);&quot;&gt;three times&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-330" y="214" width="135" height="70.5" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-53" value="exit" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
@@ -116,7 +113,7 @@
         <mxCell id="GNew5yEd5w2ccM4kTpbS-61" value="yes" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="-275" y="371" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-66" value="Query Transaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-66" value="Query Transaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="399" y="281" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.584;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-16" target="GNew5yEd5w2ccM4kTpbS-66">
@@ -137,7 +134,7 @@
         <mxCell id="GNew5yEd5w2ccM4kTpbS-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-73" target="GNew5yEd5w2ccM4kTpbS-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-73" value="&amp;nbsp;Transfer Transaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-73" value="&amp;nbsp;Transfer Transaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="529" y="382" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-16" target="GNew5yEd5w2ccM4kTpbS-73">
@@ -154,16 +151,16 @@
         <mxCell id="GNew5yEd5w2ccM4kTpbS-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-81" target="GNew5yEd5w2ccM4kTpbS-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-81" value="input toTransferAccount" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-81" value="input toTransferAccount" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="305" y="382" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-84" target="GNew5yEd5w2ccM4kTpbS-87">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-84" value="Varify Validity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-84" value="Varify Validity" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" vertex="1" parent="1">
           <mxGeometry x="65" y="382" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="GNew5yEd5w2ccM4kTpbS-87" value="valid" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-87" value="valid" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-113" y="454" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.022;entryY=0.73;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GNew5yEd5w2ccM4kTpbS-87" target="GNew5yEd5w2ccM4kTpbS-43">
@@ -179,6 +176,9 @@
         </mxCell>
         <mxCell id="GNew5yEd5w2ccM4kTpbS-94" value="no" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="-146" y="519" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="GNew5yEd5w2ccM4kTpbS-96" value="Insert DebitCard" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-73" y="153" width="80" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
