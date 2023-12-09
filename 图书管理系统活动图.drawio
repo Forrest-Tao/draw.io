@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T00:55:49.675Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="sGh0wpjaXOtZI4QJbxYt" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-09T00:56:56.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="uprRERIe72tt64UkPHwA" version="22.1.7" type="github">
   <diagram name="第 1 页" id="9IQwv0TMulXQtud_hSM7">
-    <mxGraphModel dx="1103" dy="720" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1421" dy="899" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-3" target="PhcB0l-ijEnp4BP8WUC_-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-3" value="查看图书列表" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="PhcB0l-ijEnp4BP8WUC_-3" value="查看借阅历史" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="6" y="211" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-4" target="PhcB0l-ijEnp4BP8WUC_-6">
@@ -24,63 +24,48 @@
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-4" value="选择图书" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="6" y="341" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="235.9999999999999" y="496" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-6" value="点击借阅" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="PhcB0l-ijEnp4BP8WUC_-6" value="点击归还" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="6" y="471" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-8" value="库存大小" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="475" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-9" value="库存大于0" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" edge="1" source="PhcB0l-ijEnp4BP8WUC_-8" parent="1">
+        <mxCell id="PhcB0l-ijEnp4BP8WUC_-9" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="414" y="495" as="targetPoint" />
+            <mxPoint x="216" y="497" as="targetPoint" />
+            <mxPoint x="116" y="497" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-10" value="库存小于0" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;rounded=0;" edge="1" source="PhcB0l-ijEnp4BP8WUC_-8" parent="1">
-          <mxGeometry x="-1" relative="1" as="geometry">
-            <mxPoint x="274" y="575" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-11" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="259" y="574" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="459.9655172413793" as="targetPoint" />
+            <mxPoint x="282" y="461.9655172413793" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="527" as="targetPoint" />
+            <mxPoint x="282" y="529" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="416" y="456" width="10" height="80" as="geometry" />
+          <mxGeometry x="218" y="458" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-23" target="PhcB0l-ijEnp4BP8WUC_-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-23" value="在借阅历史显示借阅信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="479" y="439" width="110" height="50" as="geometry" />
+          <mxGeometry x="281" y="441" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-26" target="PhcB0l-ijEnp4BP8WUC_-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PhcB0l-ijEnp4BP8WUC_-26" value="图书库存-1&lt;br&gt;更新库存信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="481" y="499" width="110" height="50" as="geometry" />
+        <mxCell id="PhcB0l-ijEnp4BP8WUC_-26" value="图书库存+1&lt;br&gt;更新库存信息" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="283" y="501" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PhcB0l-ijEnp4BP8WUC_-28" target="PhcB0l-ijEnp4BP8WUC_-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="680" y="456" width="10" height="80" as="geometry" />
+          <mxGeometry x="482" y="458" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PhcB0l-ijEnp4BP8WUC_-33" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="775" y="481" width="30" height="30" as="geometry" />
+          <mxGeometry x="577" y="483" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
